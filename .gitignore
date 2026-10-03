@@ -1,0 +1,39 @@
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Tests et couverture
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Bases de données locales (historique des scans)
+*.sqlite
+*.sqlite3
+*.db
+
+# Résultats d'export locaux
+scan_*.json
+scan_*.csv
+
+# Documents personnels
+Doc-Perso/
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Éditeurs et OS
+.vscode/
+.idea/
+.DS_Store
